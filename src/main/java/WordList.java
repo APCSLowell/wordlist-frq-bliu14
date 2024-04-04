@@ -12,7 +12,7 @@ public class WordList
   {
     int num = 0;
     for(int i = 0; i < myList.size(); i++) {
-      if(myLIst.get(i).Length() == len) {
+      if(myList.get(i).Length() == len) {
         num += 1;
       }
     }
@@ -23,7 +23,7 @@ public class WordList
   public void removeWordsOfLength(int len)
   {
     for(int i = 0; i < myList.size(); i++) {
-      if(myLIst.get(i).Length() == len) {
+      if(myList.get(i).Length() == len) {
         myList.remove(i);
         i--;
       }
